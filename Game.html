@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dungeon Chaos</title>
+    <link rel="stylesheet" href="css\Dungeon Chaos CSS.css" />
+    <script src="js\Game.js"></script>
+    <script src="js\Data.js"></script>
+  </head>
+  <body onload="Onload()">
+
+    <div id="container">
+      <div id="status">
+        <h2 id="roomTitle"></h2>
+        <ul id="StatusItems">
+          <li id="PlayerName"></li>
+          <li id="PlayerClass"></li>
+          <li id="PlayerLVL"></li>
+          <li id="PlayerEXP"></li>
+          <li id="PlayerHealth"></li>
+          <li id="PlayerGold"></li>
+        </ul>
+        <p id="equipedGear">
+       </p>
+      </div>
+      <div id="inventory">
+        <h3>Inventory List</h3>
+        <div id="Items"></div>
+      </div>
+      <div id="maincontent">
+        <p id="roomText">
+       </p>
+       <audio controls="controls" loop="loop" autoplay="autoplay">
+         <source src="audio/MainMusic.mp3" type="audio/mp3"/>
+       </audio>
+       </div>
+      <div class="clear"></div>
+      <div id="choices">
+      </div>
+    </div>
+
+  </body>
+</html>

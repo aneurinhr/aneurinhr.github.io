@@ -1,0 +1,36 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+#header {
+  height: 70px;
+  width: 900px;
+  background-color: grey;
+}
+
+.box {
+  height: 81px;
+  width: 81px;
+  margin: 10px 0 0 0px;
+  margin-left: 10px;
+  float: left;
+  background-color: grey;
+}
+
+.leftbox {
+margin-left: 0px;
+}
+
+#footer {
+  height: 30px;
+  width: 900px;
+  float: left;
+  background-color: grey;
+  margin-top:10px;
+}
+
+.clear {
+  clear: both;
+}

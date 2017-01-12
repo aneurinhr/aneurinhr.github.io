@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dungeon Chaos</title>
+    <link rel="stylesheet" href="css\Dungeon Chaos CSS.css" />
+    <script src="js\MiniGame.js"></script>
+    <script src="js\Data.js"></script>
+  </head>
+  <body onload="GameLoad()">
+
+    <div id="container">
+      <div id="status">
+        <h2 id="Encounter"></h2>
+        <ul id="StatusItems">
+          <li id="PlayerName"></li>
+          <li id="PlayerClass"></li>
+          <li id="PlayerLVL"></li>
+          <li id="PlayerEXP"></li>
+          <li id="PlayerHealth"></li>
+          <li id="PlayerGold"></li>
+        </ul>
+        <p id="equipedGear">
+       </p>
+      </div>
+      <div id="GamePart">
+        <p id="Game"></p>
+        <p id="GameButtons"></p>
+        <p id="GameTEXT"></p>
+        <p id="attacks"></p>
+        <audio controls="controls" loop="loop" autoplay="autoplay">
+          <source src="audio/BattleMusic.mp3" type="audio/mp3" />
+        </audio>
+       </div>
+      <div id="choices">
+        <button onclick="ChooseAttack()">Attack</button>
+        <button onclick="UseGameHeal()">Use Item</button>
+      </div>
+    </div>
+
+  </body>
+</html>

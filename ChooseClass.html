@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dungeon Chaos</title>
+    <link rel="stylesheet" href="css\Dungeon Chaos CSS.css" />
+    <script src="js\DungeonChaos.js"></script>
+  </head>
+  <body>
+
+    <div id="Menu">
+      <br/>
+      What is your name: <input type="text" id="playername" />
+      <br/>
+      <br/>
+      Select your class:
+      <select id="playerclass">
+    	  <option value="1">Fighter</option>
+        <option value="2">Mage</option>
+        <option value="3">Rouge</option>
+        <option value="4">Ranger</option>
+      </select>
+      <br/>
+      <br/>
+      <button onclick="CreatePlayer()">Submit</button>
+      <br/>
+      <br/>
+      <button id="playButton" onclick="PlayGame()">Continue</button>
+      <br/>
+      <br/>
+      <button id="playButton" onclick="ShowHelp()">Help</button>
+      <div id="helpMenu">
+        <h3 id="helpText" style="display:none">Help:</h3>
+        <ul id="helpText2" style="display:none">
+          <li>Use items in battle for emergency health boosts.  They will get to attack when you use on though. </li>
+          <li>DR reduces incoming damage. So if the enemy or you take 0 damage, it's due to DR.</li>
+          <li>Leveling increases health, base DR and base dps.</li>
+          <li>Information stands are useful.</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
