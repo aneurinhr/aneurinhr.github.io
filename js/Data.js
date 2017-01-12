@@ -52,7 +52,7 @@ var roomArray = [
 
 {
   title:"Dungeon Lobby",
-  text:"You enter the wooden door and see what seems to be a shop and a information stand.  There are also two doors here.  One that is labeled 'Exit' and another that is labeled 'Waste of Time'.  What do you do?",
+  text:"You enter the wooden door and see what seems to be a shop and a information stand.  There are also two doors here.  One that is labelled 'Exit' and another that is labelled 'Waste of Time'.  What do you do?",
   image:"img/Dungeon Start.png",
   choices: [
     {text:"The Shop", index:"6"},
@@ -143,7 +143,7 @@ var roomArray = [
   choices: [
     {text:"Go back to browsing", index:"10"},
     {text:"Leave", index:"5"},
-    {text:"Rougelifting", index:""}
+    {text:"Steal!", index:""}
 ]//choices
 },//13
 
@@ -164,7 +164,7 @@ var roomArray = [
   choices: [
     {text:"Whats the Pass Phrase", index:"16"},
     {text:"Where am I?", index:"17"},
-    {text:"How'd I survie that fall?", index:"18"},
+    {text:"How'd I survive that fall?", index:"18"},
     {text:"Why am I here?", index:"19"},
     {text:"Waste of Time Door?", index:"20"},
     {text:"Demon?", index:"55"},
@@ -194,7 +194,7 @@ var roomArray = [
 
 {
   title:"How Did I Survive?",
-  text:"'It's a magic pool of water.  Enchanted with featherfall so getting near it slows your fall. '",
+  text:"'It's a magic pool of water.  Enchanted with feather fall so getting near it slows your fall. '",
   image:"img/Dungeon Start.png",
   choices: [
     {text:"Back to questions", index:"15"},
@@ -204,7 +204,7 @@ var roomArray = [
 
 {
   title:"Why Am I here?",
-  text:"'You're here to face the challenges of this dungeon like the adventurer you are.  The master gets bored so he picks random people and gives them powers.  Then they have to go through the dungeon he has set up. '",
+  text:"‘You’re here to face the challenges of this dungeon like the adventurer you are.  The master gets bored so he picks random people and gives them powers.  Then they have to go through the dungeon he has set up. '",
   image:"img/Dungeon Start.png",
   choices: [
     {text:"Back to questions", index:"15"},
@@ -214,7 +214,7 @@ var roomArray = [
 
 {
   title:"Waste of Time Information",
-  text:"'Well it's as it says.  A door leading to a room that is a waste of time. '",
+  text:"‘Well it's as it says.  A door leading to a room that is a waste of time. '",
   image:"img/Dungeon Start.png",
   choices: [
     {text:"Back to questions", index:"15"},
@@ -227,8 +227,8 @@ var roomArray = [
   text:"You enter the door and find yourself in a train cart that appears to be traveling.  There is not much on the train cart.  It has some overhead compartments and other normal train cart things.  There appears to be 2 doors here.  1 leading to the next carriage and strangely one that leads off of the train.  ",
   image:"img/Train Cart.png",
   choices: [
-    {text:"Off the train", index:"28"},
-    {text:"Next Carriage", index:"31"},
+    {text:"To Cave", index:"28"},
+    {text:"To Forest", index:"31"},
     {text:"Check overhead compartments", index:"27"},
     {text:"To Dungeon", index:"5"}
 ]//choices
@@ -344,7 +344,7 @@ var roomArray = [
 
 {
   title:"Forest Part 2",
-  text:"As you proceed through the forest you see a boulder with a door in it.  The door is labeled bouncy castle. You can also see something glisten in the bushes.  Up ahead a what looks like more enemies.",
+  text:"As you proceed through the forest you see a boulder with a door in it.  The door is labelled bouncy castle. You can also see something glisten in the bushes.  Up ahead a what looks like more enemies.",
   image:"img/Forest.png",
   choices: [
     {text:"Check Door", index:"34"},
@@ -407,7 +407,7 @@ var roomArray = [
 
 {
   title:"Bouncy Castle 4",
-  text:"You struggle to leave.  Your gonna have to use all your might to escape. ",
+  text:"You struggle to leave.  You’re going to have to use all your might to escape. ",
   image:"img/FALSE.png",
   choices: [
     {text:"Roll", index:"33"}
@@ -459,7 +459,7 @@ var roomArray = [
 
 {
   title:"Inn Black Door",
-  text:"The moment you go up to the door and touch it you hear a voice in your head.  Its says 'This place is where scum group together.  Where they trade illegal or stolen goods.  Do you wish to join them?'. ",
+  text:"The moment you go up to the door and touch it you hear a voice in your head.  It’s says 'This place is where scum group together.  Where they trade illegal or stolen goods.  Do you wish to join them?'. ",
   image:"img/Inn Black.png",
   choices: [
     {text:"Accept Door", index:"48"},
@@ -479,7 +479,7 @@ var roomArray = [
 
 {
   title:"Inn Info",
-  text:"'Well we've had more strangers coming here recently and they all say that they came into my establishment from a forest.  Weird right?  My Inn is in the center of town. '  You glance out of a window and make out that this is true. ",
+  text:"'Well we've had more strangers coming here recently and they all say that they came into my establishment from a forest.  Weird right?  My Inn is in the centre of town. '  You glance out of a window and make out that this is true. ",
   image:"img/Inn Black.png",
   choices: [
     {text:"Back", index:"42"}
@@ -497,7 +497,7 @@ var roomArray = [
 
 {
   title:"Black Market",
-  text:"You walk in and see what is essentially a huge underground market selling all sort of illegal goods.  You haven't even heard of a black market this big.  You don't know how you'd find anything here, but then you look up and see a sign.  Looks like these bunch of thieves aren't stupid.  Three signs catch your interest.  There is one pointing towards an adventurers part of the market.  There is another that shows the location of an information broker.  Lastly there is a sign that just shows an image of a Rat.  ",
+  text:"You walk in and see what is essentially a huge underground market selling all sort of illegal goods.  You haven't even heard of a black market this big.  You don't know how you'd find anything here, but then you look up and see a sign.  Looks like these bunch of thieves aren't stupid.  Three signs catch your interest.  There is one pointing towards an adventurer’s part of the market.  There is another that shows the location of an information broker.  Lastly there is a sign that just shows an image of a Rat.  ",
   image:"img/BlackMarket.png",
   choices: [
     {text:"Gear Shopping", index:"49"},
@@ -532,7 +532,7 @@ var roomArray = [
 
 {
   title:"Thieves base",
-  text:"You walk towards the base and see to bulky looking guards.  One of them say 'What do you want?'",
+  text:"You walk towards the base and see too bulky looking guards.  One of them say 'What do you want?'",
   image:"img/ratMansion.png",
   choices: [
     {text:"I want to talk.", index:"76"},
@@ -579,7 +579,7 @@ var roomArray = [
 
 {
   title:"Info Magic Doors",
-  text:"'Heard a few rumors about those.  Supposedly entering doors in odd places will transport you to other places.  Nothing but rumors though.  Not enough sightings for evidence other than superstition.  You're not one of them too right? '",
+  text:"'Heard a few rumours about those.  Supposedly entering doors in odd places will transport you to other places.  Nothing but rumours though.  Not enough sightings for evidence other than superstition.  You're not one of them too right? '",
   image:"img/BlackMarket.png",
   choices: [
     {text:"Back To Questions", index:"50"},
@@ -589,7 +589,7 @@ var roomArray = [
 
 {
   title:"Info Black Market",
-  text:"'It's been around for almost as long as the Rat's thieves guild.  No one really knows how long that is due to the facts thieves don't particularly write history books.  It sells all sort of stolen and illegal goods that you couldn't get anywhere else.  The are also a lot of services people can get here.  It's the biggest of its kind and the best.  '",
+  text:"'It's been around for almost as long as the Rat's thieves’ guild.  No one really knows how long that is due to the facts thieves don't particularly write history books.  It sells all sort of stolen and illegal goods that you couldn't get anywhere else.  There are also a lot of services people can get here.  It's the biggest of its kind and the best.  '",
   image:"img/BlackMarket.png",
 choices: [
   {text:"Back To Market", index:"48"}
@@ -608,7 +608,7 @@ choices: [
 
 {
   title:"Thieves Base Origin",
-  text:"You tell the man that he summoned you here to run his dungeon because he's bored.  The boss replys with 'I'm the same. Usually anyone that gets summoned dies.  But a few, like me, stay and build a life.  I was one of the first.  This places was nothing.  I cleared it out and found that thieves used it.  I decided to build a criminal empire from here.  But I'm still stuck in his stupid game.  And he took my soul because I gave up on clearing this dumb thing.  That's when I found out that him taking my soul caused me to be immortal.  So I'm cool with it.  Although it does get boring.  I recruit most of the people that don't want to die to this empire.  Do you want to join too?'",
+  text:"You tell the man that he summoned you here to run his dungeon because he's bored.  The boss reply’s with 'I'm the same. Usually anyone that gets summoned dies.  But a few, like me, stay and build a life.  I was one of the first.  This places was nothing.  I cleared it out and found that thieves used it.  I decided to build a criminal empire from here.  But I'm still stuck in his stupid game.  And he took my soul because I gave up on clearing this dumb thing.  That's when I found out that him taking my soul caused me to be immortal.  So I'm cool with it.  Although it does get boring.  I recruit most of the people that don't want to die to this empire.  Do you want to join too?'",
   image:"img/rat house inside.png",
   choices: [
     {text:"Yes", index:"61"},
@@ -646,7 +646,7 @@ choices: [
 
 {
   title:"Jail",
-  text:"You awake in a jail cell.  You're not the only one though.  There are cells full of people.  However you are sharing your cell with one other person who is in a hooded robe",
+  text:"You awake in a jail cell.  You're not the only one though.  There are cells full of people.  However, you are sharing your cell with one other person who is in a hooded robe",
   image:"img/Jail.png",
   choices: [
     {text:"Talk to him", index:"65"},
@@ -656,7 +656,7 @@ choices: [
 
 {
   title:"Execution",
-  text:"After what seems like hours some officers come over and take you out of your cell you notice the hooded guy had disappeared.  They take you to an execution platform with many others that you are from the thieves guild. ",
+  text:"After what seems like hours some officers come over and take you out of your cell you notice the hooded guy had disappeared.  They take you to an execution platform with many others that you are from the thieves’ guild. ",
   image:"img/Jail.png",
   choices: [
     {text:"GameOver", index:"54"}
@@ -763,7 +763,7 @@ choices: [
 
 {
   title:"Info Rat symbol",
-  text:"'The rat symbol is the symbol of the lead thieves guild here.  They own and police the black market, of course not for free.  They are ruthless thieves, some saying they're more like assassins than thieves.  There's also a rumor going around that he sold his soul to a chaotic being for his power.  Oh and they set a golden rule here.  Don't steal.  Honor amongst thieves right.  '",
+  text:"'The rat symbol is the symbol of the lead thieves’ guild here.  They own and police the black market, of course not for free.  They are ruthless thieves, some saying they're more like assassins than thieves.  There's also a rumour going around that he sold his soul to a chaotic being for his power.  Oh and they set a golden rule here.  Don't steal.  Honour amongst thieves right.  '",
   image:"img/BlackMarket.png",
   choices: [
     {text:"Back To Questions", index:"50"},
@@ -776,7 +776,7 @@ choices: [
   text:"'For what reason?'",
   image:"img/ratMansion.png",
   choices: [
-    {text:"I'm curius about him", index:"77"},
+    {text:"I'm curious about him", index:"77"},
     {text:"Dunno", index:"77"},
     {text:"Leave", index:"48"},
     {text:"Chaotic friend.  ", index:"58"}
@@ -1135,7 +1135,7 @@ var enemyArray = [
       DR:3,
       EXP:25,
       image:"img/Pixel'Cyclops'.png",
-      description:"Its actually just a bigger orc thats missing an eye."
+      description:"It’s actually just a bigger orc that’s missing an eye."
     },//Enemy 3
 
     {
