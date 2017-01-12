@@ -54,11 +54,11 @@ button:active {
   text-align: center;
   background-color: #ffffff;
   overflow: auto;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 #Menu {
-	font-family: fantasy;
+	font-family: sans-serif;
   margin: 0 auto;
   height: 100%;
   width: 100%;
@@ -97,7 +97,7 @@ button:active {
   border: 2% 2% 2% 2%;
   float: left;
   background-color: grey;
-  font-family: fantasy;
+  font-family: sans-serif;
   border-style: solid;
 	border-color: #000000;
 	outline: 1% solid #643200;
@@ -110,7 +110,7 @@ button:active {
   float: left;
   background-color: grey;
   border: 2% 2% 2% 2%;
-  font-family: fantasy;
+  font-family: sans-serif;
   border-style: solid;
 	border-color: #000000;
 	outline: 1% solid #643200;
